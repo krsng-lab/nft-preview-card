@@ -46,7 +46,6 @@ img {
 .paragraph {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 18px;
 }
 
 .amount {
@@ -56,7 +55,6 @@ img {
 .numeral {
     color: hsl(178, 100%, 50%);
     font-weight: 400;
-    font-size: 18px;
     margin-left: 1ch;
 }
 
@@ -67,7 +65,6 @@ img {
 .duration {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 18px;
     margin-left: 1ch;
 }
 
@@ -89,12 +86,21 @@ img {
 
 .credits img {
     object-fit: contain;
-    outline: 5px solid hsl(0, 0%, 100%);
+    outline: 2px solid hsl(0, 0%, 100%);
     border-radius: 50%;
+    height: 50px;
+    max-width: 100%;
 }
 
 .creator {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
+    margin-left: 2ch;
+}
+
+.paragraph,
+.numeral,
+.duration,
+.creator {
     font-size: 18px;
 }
