@@ -8,15 +8,93 @@
 
 body {
     background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.card img {
+    object-fit: contain;
+}
+
+img {
+    border-radius: 15px;
+}
+
 .card {
     background-color: hsl(216, 50%, 16%);
     width: 40ch;
-    min-height: 80ch;
+    min-height: 70ch;
+    padding: 3ch;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card > * {
+    margin-bottom: 3ch;
+}
+
+.nft-number {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.amount {
+    display: flex;
+}
+
+.numeral {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 1ch;
+}
+
+.time {
+    display: flex;
+}
+
+.duration {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 1ch;
+}
+
+.inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    width: 100%;
+    height: 0.3ch;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+}
+
+.credits img {
+    object-fit: contain;
+    outline: 5px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.creator {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
 }
