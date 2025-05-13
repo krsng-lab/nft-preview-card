@@ -45,6 +45,13 @@ Users should be able to:
 ```html
   <div class="creator">Creation of <span style="color:hsl(0, 0%, 100%)">Jules Wyvern</span></div>
 ```
+```css
+.middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
