@@ -44,6 +44,16 @@ Users should be able to:
 ```html
   <div class="creator">Creation of <span style="color:hsl(0, 0%, 100%)">Jules Wyvern</span></div>
 ```
+```html 
+  <div class="card">
+    <div class="image">
+      <img class="nft-img" src="images/image-equilibrium.jpg" alt="image of nft">
+      <div class="overlay"></div>
+      <div class="middle">
+        <img src="images/icon-view.svg" alt="eyeball">
+      </div>
+    </div>
+```
 ```css
 .middle {
   top: 50%;
